@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+</head>
+<body>
+<header style="text-align: center">
+    <h1>تسجيل دخول</h1>
+    <form>
+        <div class="قسم البيانات">
+        <label>اسم الطالب</label>
+        <input type="text" required>
+        <br>
+        <label>السن</label>
+        <input type="date" required>
+        <br>
+        <label>البريد الإلكتروني</label>
+        <input type="email" required>
+        </div>
+        <hr>
+        <div class="قسم المواد">
+            <label class="k">المرحلة الدراسية</label>
+            <br>
+            <select class="k">
+                <option>ابتدائي</option>
+                 <option>إعدادي</option>
+                <option>ثانوي</option>
+
+            </select>
+            <br><br>
+          <h3>اختار المواد</h3>
+            <label>عربي</label>
+            <input type="checkbox" >
+              <label>إنجليزي</label>
+            <input type="checkbox" >
+              <label>رياضيات</label>
+            <input type="checkbox" >
+              <label>علوم</label>
+            <input type="checkbox" >
+              <label>حاسب</label>
+            <input type="checkbox" >
+
+        </div>
+        <div class="قسم إضافي">
+            <h3>تحديد النوع (اختياري)</h3>
+            <label>ذكر</label>
+            <input type="radio" name="الجنس"><br>
+            <label>أنثى</label>
+            <input type="radio" name="الجنس"><br>
+            <br>
+            <h3>هل أنت طالب جديد؟</h3>
+            <label>نعم</label>
+            <input type="radio" name="ؤ" required>
+            <label>لا</label>
+            <input type="radio" name="ؤ" required>
+            <br>
+            <h3>مشاكل
+                طلبات
+                استفسار</h3>
+            <input type="tel" >
+
+        </div>
+        <br>
+
+        <label>تسجيل</label>
+        <input type="submit">
+    </form>
+</header>
+</body>
+</html>
